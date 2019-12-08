@@ -5,7 +5,7 @@ Screenshot to Google Slides is a Chrome extension that makes it easy to create m
 If you just only open the web page you want to capture and click, the screenshot is automatically added to the Google Slide.
 
 
-# PERMISSION - 必要な権限
+## PERMISSION - 必要な権限
 Screenshot to Google Slides は、Google OAuthを利用しており、以下の権限を必要とします。
 
 - **Google スライドのプレゼンテーションの表示と管理** 撮影したスクリーンショットをGoogleスライドに追加するために必要です。
@@ -17,7 +17,7 @@ Screenshot to Google Slides uses Google OAuth and requires the following:
 - **View and manage Google Drive files and folders that you have opened or created with this app** To temporarily store screenshots. After added screenshot to google slide, the screenshot file is deleted.
 
 
-# PRIVACY - プライバシー
+## PRIVACY - プライバシー
 撮影されたスクリーンショットは、Googleスライドに追加する目的でのみ使用され、その他の目的では使用されません。私たちが、あなたのスクリーンショットを閲覧、収集、分析、販売することはありません。
 
 Screenshot to Google Slides は Google Analytics を使用しており、使用状況データの一部はGoogle Analyticsに送信されます。これらのデータは、拡張機能を改善する目的でのみ使用されます。
