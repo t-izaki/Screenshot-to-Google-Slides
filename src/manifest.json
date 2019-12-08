@@ -16,8 +16,9 @@
     "scripts": ["background.js"],
     "persistent": false
   },
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAgcYHrHkdnSmFcKLt5zS1RRDreM2SBawTCLYJBq8nvpAkRn5TTN8bfvzz6N2Z+bNXy7FifOjfakY60i/M6a4iADWo6ZHpngPf56t7R39g5mqLgC5Q2u2iZMxnmoRZVmOguva9dVJLNF/CwyGveGqt/Q5pw19bT3jA3nfeP793BpZsAGbXIPZbGsumThieogICrQLx+9ype/RFm/yWl2N0yf4EmnBdix6FmixzUGABVuK9S77042BngVp/kqkfXjoDZH8hXkTWfkHgASlXBZvj75bEE9ZdaFnBDtPzTJj/iUEM0HcNJCCJKDoWxOyLy8B4FF8APV3VRMBfb9gOWB4FpwIDAQAB",
   "oauth2": {
-    "client_id": "19377463058-mddm7akict9drufnidpgl41bv7a2bi6l.apps.googleusercontent.com",
+    "client_id": "481640214156-73t4k4qjgpided1mfjp41tekb7i0naln.apps.googleusercontent.com",
     "scopes": ["https://www.googleapis.com/auth/presentations", "https://www.googleapis.com/auth/drive.file"]
   },
   "content_security_policy": "script-src 'self' https://www.google-analytics.com; object-src 'self'",
