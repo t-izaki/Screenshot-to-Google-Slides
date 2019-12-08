@@ -1,0 +1,25 @@
+{
+  "name": "Screenshot to Google Slides",
+  "version": "1.0",
+  "description": "",
+  "permissions": ["activeTab", "storage", "identity"],
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon_16.png",
+      "32": "icon_32.png",
+      "48": "icon_48.png",
+      "128": "icon_128.png"
+    }
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "oauth2": {
+    "client_id": "19377463058-mddm7akict9drufnidpgl41bv7a2bi6l.apps.googleusercontent.com",
+    "scopes": ["https://www.googleapis.com/auth/presentations", "https://www.googleapis.com/auth/drive.file"]
+  },
+  "content_security_policy": "script-src 'self' https://www.google-analytics.com; object-src 'self'",
+  "manifest_version": 2
+}

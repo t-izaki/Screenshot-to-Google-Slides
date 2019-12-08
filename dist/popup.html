@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .container {
+        width: 300px;
+      }
+
+      .row {
+        margin: 10px 10px 20px;
+        width: calc(100% - 20px);
+      }
+
+      .label {
+        color: #191407;
+        font-size: 11px;
+        font-weight: bold;
+      }
+
+      input.presentationUrl {
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 6px 10px;
+        width: 100%;
+      }
+
+      button.capture {
+        background-color: #febb00;
+        border: none;
+        border-radius: 4px;
+        box-sizing: border-box;
+        color: white;
+        cursor: pointer;
+        font-size: 13px;
+        font-weight: bold;
+        padding: 6px 0;
+        text-align: center;
+        width: 100%;
+      }
+
+      button.capture:hover {
+        background-color: #cb9500;
+      }
+
+      .text-center{
+        text-align: center;
+      }
+
+      .statusIcon {
+        margin-right: 8px;
+      }
+
+      .statusIcon__success, .statusIcon__success ~ span{
+        color: #cb9500;
+        font-weight: bold;
+      }
+
+      .statusIcon__error, .statusIcon__error ~ span{
+        color: #fe0043;
+        font-weight: bold;
+      }
+    </style>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <script src="googleAnalytics.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row">
+        <span class="label">Google Slide URL</span>
+        <input type="text" id="js-presentationUrl" class="presentationUrl" placeholder="https://docs.google.com/presentation/d/xxxxxx/..." />
+      </div>
+
+      <div class="row">
+        <button id="js-capture" class="capture" onclick="ga('send', 'click', 'capture');">Take a screenshot & Add to slide</button>
+      </div>
+
+      <div class="row text-center">
+        <span id="js-statusIcon"></span>
+        <span id="js-statusMessage" class="statusMessage"></span>
+      </div>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>
