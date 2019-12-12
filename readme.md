@@ -5,6 +5,10 @@ Screenshot to Google Slides is a Chrome extension that makes it easy to create m
 If you just only open the web page you want to capture and click, the screenshot is automatically added to the Google Slide.
 
 
+## DOWNLOAD - ダウンロード
+
+[Screenshot to Google Slides - Chrome Web Store](https://chrome.google.com/webstore/detail/pancfmiiboiillelmbmkpkapokllmjgg)
+
 ## PERMISSION - 必要な権限
 Screenshot to Google Slides は、Google OAuthを利用しており、以下の権限を必要とします。
 
